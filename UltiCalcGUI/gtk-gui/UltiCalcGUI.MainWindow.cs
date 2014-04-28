@@ -171,7 +171,7 @@ namespace UltiCalcGUI
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 451;
+			this.DefaultWidth = 457;
 			this.DefaultHeight = 500;
 			this.Show ();
 			this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);

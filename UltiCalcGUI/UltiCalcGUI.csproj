@@ -67,7 +67,9 @@
     <Compile Include="gtk-gui\UltiCalcGUI.theBMIWindow.cs" />
     <Compile Include="IPNWindow.cs" />
     <Compile Include="gtk-gui\UltiCalcGUI.IPNWindow.cs" />
-    <Compile Include="gtk-gui\UltiCalcGUI.BMIWindow.cs" />
+    <Compile Include="gtk-gui\UltiCalcGUI.BMIWindow.cs">
+      <DeployService-Deploy>True</DeployService-Deploy>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

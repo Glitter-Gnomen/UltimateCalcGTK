@@ -6,7 +6,6 @@ namespace UltiCalcGUI
 	{
 		private global::Gtk.HBox hbox13;
 		private global::Gtk.VBox vbox12;
-		private global::Gtk.Button buttonComma;
 		private global::Gtk.VBox vbox15;
 		private global::Gtk.HBox hbox17;
 		private global::Gtk.Button button7;
@@ -20,6 +19,7 @@ namespace UltiCalcGUI
 		private global::Gtk.Button button1;
 		private global::Gtk.Button button2;
 		private global::Gtk.Button button3;
+		private global::Gtk.Button buttonComma;
 		private global::Gtk.VBox vbox13;
 		private global::Gtk.Label output;
 		private global::Gtk.VBox vbox14;
@@ -49,17 +49,6 @@ namespace UltiCalcGUI
 			this.vbox12.Name = "vbox12";
 			this.vbox12.Spacing = 6;
 			// Container child vbox12.Gtk.Box+BoxChild
-			this.buttonComma = new global::Gtk.Button ();
-			this.buttonComma.CanFocus = true;
-			this.buttonComma.Name = "buttonComma";
-			this.buttonComma.UseUnderline = true;
-			this.buttonComma.Label = global::Mono.Unix.Catalog.GetString (".");
-			this.vbox12.Add (this.buttonComma);
-			global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.vbox12 [this.buttonComma]));
-			w1.Position = 0;
-			w1.Expand = false;
-			w1.Fill = false;
-			// Container child vbox12.Gtk.Box+BoxChild
 			this.vbox15 = new global::Gtk.VBox ();
 			this.vbox15.Name = "vbox15";
 			this.vbox15.Spacing = 6;
@@ -74,10 +63,10 @@ namespace UltiCalcGUI
 			this.button7.UseUnderline = true;
 			this.button7.Label = global::Mono.Unix.Catalog.GetString ("7");
 			this.hbox17.Add (this.button7);
-			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox17 [this.button7]));
-			w2.Position = 0;
-			w2.Expand = false;
-			w2.Fill = false;
+			global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox17 [this.button7]));
+			w1.Position = 0;
+			w1.Expand = false;
+			w1.Fill = false;
 			// Container child hbox17.Gtk.Box+BoxChild
 			this.button8 = new global::Gtk.Button ();
 			this.button8.CanFocus = true;
@@ -85,10 +74,10 @@ namespace UltiCalcGUI
 			this.button8.UseUnderline = true;
 			this.button8.Label = global::Mono.Unix.Catalog.GetString ("8");
 			this.hbox17.Add (this.button8);
-			global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox17 [this.button8]));
-			w3.Position = 1;
-			w3.Expand = false;
-			w3.Fill = false;
+			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox17 [this.button8]));
+			w2.Position = 1;
+			w2.Expand = false;
+			w2.Fill = false;
 			// Container child hbox17.Gtk.Box+BoxChild
 			this.button9 = new global::Gtk.Button ();
 			this.button9.CanFocus = true;
@@ -96,15 +85,15 @@ namespace UltiCalcGUI
 			this.button9.UseUnderline = true;
 			this.button9.Label = global::Mono.Unix.Catalog.GetString ("9");
 			this.hbox17.Add (this.button9);
-			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox17 [this.button9]));
-			w4.Position = 2;
+			global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox17 [this.button9]));
+			w3.Position = 2;
+			w3.Expand = false;
+			w3.Fill = false;
+			this.vbox15.Add (this.hbox17);
+			global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox15 [this.hbox17]));
+			w4.Position = 0;
 			w4.Expand = false;
 			w4.Fill = false;
-			this.vbox15.Add (this.hbox17);
-			global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.vbox15 [this.hbox17]));
-			w5.Position = 0;
-			w5.Expand = false;
-			w5.Fill = false;
 			// Container child vbox15.Gtk.Box+BoxChild
 			this.hbox18 = new global::Gtk.HBox ();
 			this.hbox18.Name = "hbox18";
@@ -116,10 +105,10 @@ namespace UltiCalcGUI
 			this.button4.UseUnderline = true;
 			this.button4.Label = global::Mono.Unix.Catalog.GetString ("4");
 			this.hbox18.Add (this.button4);
-			global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.hbox18 [this.button4]));
-			w6.Position = 0;
-			w6.Expand = false;
-			w6.Fill = false;
+			global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox18 [this.button4]));
+			w5.Position = 0;
+			w5.Expand = false;
+			w5.Fill = false;
 			// Container child hbox18.Gtk.Box+BoxChild
 			this.button5 = new global::Gtk.Button ();
 			this.button5.CanFocus = true;
@@ -127,10 +116,10 @@ namespace UltiCalcGUI
 			this.button5.UseUnderline = true;
 			this.button5.Label = global::Mono.Unix.Catalog.GetString ("5");
 			this.hbox18.Add (this.button5);
-			global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.hbox18 [this.button5]));
-			w7.Position = 1;
-			w7.Expand = false;
-			w7.Fill = false;
+			global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.hbox18 [this.button5]));
+			w6.Position = 1;
+			w6.Expand = false;
+			w6.Fill = false;
 			// Container child hbox18.Gtk.Box+BoxChild
 			this.button6 = new global::Gtk.Button ();
 			this.button6.CanFocus = true;
@@ -138,15 +127,15 @@ namespace UltiCalcGUI
 			this.button6.UseUnderline = true;
 			this.button6.Label = global::Mono.Unix.Catalog.GetString ("6");
 			this.hbox18.Add (this.button6);
-			global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.hbox18 [this.button6]));
-			w8.Position = 2;
+			global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.hbox18 [this.button6]));
+			w7.Position = 2;
+			w7.Expand = false;
+			w7.Fill = false;
+			this.vbox15.Add (this.hbox18);
+			global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.vbox15 [this.hbox18]));
+			w8.Position = 1;
 			w8.Expand = false;
 			w8.Fill = false;
-			this.vbox15.Add (this.hbox18);
-			global::Gtk.Box.BoxChild w9 = ((global::Gtk.Box.BoxChild)(this.vbox15 [this.hbox18]));
-			w9.Position = 1;
-			w9.Expand = false;
-			w9.Fill = false;
 			// Container child vbox15.Gtk.Box+BoxChild
 			this.hbox19 = new global::Gtk.HBox ();
 			this.hbox19.Name = "hbox19";
@@ -158,10 +147,10 @@ namespace UltiCalcGUI
 			this.button1.UseUnderline = true;
 			this.button1.Label = global::Mono.Unix.Catalog.GetString ("1");
 			this.hbox19.Add (this.button1);
-			global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.hbox19 [this.button1]));
-			w10.Position = 0;
-			w10.Expand = false;
-			w10.Fill = false;
+			global::Gtk.Box.BoxChild w9 = ((global::Gtk.Box.BoxChild)(this.hbox19 [this.button1]));
+			w9.Position = 0;
+			w9.Expand = false;
+			w9.Fill = false;
 			// Container child hbox19.Gtk.Box+BoxChild
 			this.button2 = new global::Gtk.Button ();
 			this.button2.CanFocus = true;
@@ -169,10 +158,10 @@ namespace UltiCalcGUI
 			this.button2.UseUnderline = true;
 			this.button2.Label = global::Mono.Unix.Catalog.GetString ("2");
 			this.hbox19.Add (this.button2);
-			global::Gtk.Box.BoxChild w11 = ((global::Gtk.Box.BoxChild)(this.hbox19 [this.button2]));
-			w11.Position = 1;
-			w11.Expand = false;
-			w11.Fill = false;
+			global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.hbox19 [this.button2]));
+			w10.Position = 1;
+			w10.Expand = false;
+			w10.Fill = false;
 			// Container child hbox19.Gtk.Box+BoxChild
 			this.button3 = new global::Gtk.Button ();
 			this.button3.CanFocus = true;
@@ -180,18 +169,29 @@ namespace UltiCalcGUI
 			this.button3.UseUnderline = true;
 			this.button3.Label = global::Mono.Unix.Catalog.GetString ("3");
 			this.hbox19.Add (this.button3);
-			global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.hbox19 [this.button3]));
+			global::Gtk.Box.BoxChild w11 = ((global::Gtk.Box.BoxChild)(this.hbox19 [this.button3]));
+			w11.Position = 2;
+			w11.Expand = false;
+			w11.Fill = false;
+			this.vbox15.Add (this.hbox19);
+			global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.vbox15 [this.hbox19]));
 			w12.Position = 2;
 			w12.Expand = false;
 			w12.Fill = false;
-			this.vbox15.Add (this.hbox19);
-			global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.vbox15 [this.hbox19]));
-			w13.Position = 2;
+			this.vbox12.Add (this.vbox15);
+			global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.vbox12 [this.vbox15]));
+			w13.Position = 1;
 			w13.Expand = false;
 			w13.Fill = false;
-			this.vbox12.Add (this.vbox15);
-			global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.vbox12 [this.vbox15]));
-			w14.Position = 1;
+			// Container child vbox12.Gtk.Box+BoxChild
+			this.buttonComma = new global::Gtk.Button ();
+			this.buttonComma.CanFocus = true;
+			this.buttonComma.Name = "buttonComma";
+			this.buttonComma.UseUnderline = true;
+			this.buttonComma.Label = global::Mono.Unix.Catalog.GetString (".");
+			this.vbox12.Add (this.buttonComma);
+			global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.vbox12 [this.buttonComma]));
+			w14.Position = 2;
 			w14.Expand = false;
 			w14.Fill = false;
 			this.hbox13.Add (this.vbox12);
@@ -326,7 +326,6 @@ namespace UltiCalcGUI
 			this.DefaultWidth = 438;
 			this.DefaultHeight = 300;
 			this.Show ();
-			this.buttonComma.Clicked += new global::System.EventHandler (this.OnButtonCommaClicked);
 			this.button7.Clicked += new global::System.EventHandler (this.OnButton7Clicked);
 			this.button8.Clicked += new global::System.EventHandler (this.OnButton8Clicked);
 			this.button9.Clicked += new global::System.EventHandler (this.OnButton9Clicked);
@@ -336,6 +335,7 @@ namespace UltiCalcGUI
 			this.button1.Clicked += new global::System.EventHandler (this.OnButton1Clicked);
 			this.button2.Clicked += new global::System.EventHandler (this.OnButton2Clicked);
 			this.button3.Clicked += new global::System.EventHandler (this.OnButton3Clicked);
+			this.buttonComma.Clicked += new global::System.EventHandler (this.OnButtonCommaClicked);
 			this.button.Clicked += new global::System.EventHandler (this.OnButtonClicked);
 			this.buttonPlus.Clicked += new global::System.EventHandler (this.OnButtonPlusClicked);
 			this.buttonMinus.Clicked += new global::System.EventHandler (this.OnButtonMinusClicked);

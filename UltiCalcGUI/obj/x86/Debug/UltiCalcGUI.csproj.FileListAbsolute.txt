@@ -1,0 +1,2 @@
+C:\Users\Troels\Documents\GitHub\UltimateCalcGTK\UltiCalcGUI\obj\x86\Debug\UltiCalcGUI.csprojResolveAssemblyReference.cache
+C:\Users\Troels\Documents\GitHub\UltimateCalcGTK\UltiCalcGUI\obj\x86\Debug\UltiCalcGUI.exe
