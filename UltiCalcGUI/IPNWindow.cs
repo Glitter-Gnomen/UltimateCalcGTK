@@ -11,9 +11,9 @@ namespace UltiCalcGUI
 			this.Build ();
 		}
 
-		public static double variable1;
-		public static double variable2;
-		public static string variable3;	
+		public static double myVariable1;
+		public static double myVariable2;
+		public static string myVariable3;	
 
 		IPN.Calcs (var1);
 
