@@ -34,7 +34,7 @@ namespace UltiCalcGUI
 				lab1.Text = "...Obese...";
 			}
 			if (c >= 40) {
-				lab1.Text = "...Severely obese is Rasmus...";
+				lab1.Text = "...Severely obese...";
 			}
 
 			num3.Text = c.ToString ();
