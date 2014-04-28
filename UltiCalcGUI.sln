@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltiCalcGUI", "UltiCalcGUI\UltiCalcGUI.csproj", "{52DAD5DB-0FD2-478E-992A-580B1F409196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52DAD5DB-0FD2-478E-992A-580B1F409196}.Debug|x86.ActiveCfg = Debug|x86
+		{52DAD5DB-0FD2-478E-992A-580B1F409196}.Debug|x86.Build.0 = Debug|x86
+		{52DAD5DB-0FD2-478E-992A-580B1F409196}.Release|x86.ActiveCfg = Release|x86
+		{52DAD5DB-0FD2-478E-992A-580B1F409196}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = UltiCalcGUI\UltiCalcGUI.csproj
+	EndGlobalSection
+EndGlobal

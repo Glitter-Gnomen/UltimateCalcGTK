@@ -1,0 +1,6 @@
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/UltiCalcGUI/UltiCalcGUI/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/UltiCalcGUI/UltiCalcGUI/obj/x86/Debug/UltiCalcGUI.gtk-gui.gui.stetic
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/UltiCalcGUI/UltiCalcGUI/bin/Debug/UltiCalcGUI.exe.mdb
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/UltiCalcGUI/UltiCalcGUI/bin/Debug/UltiCalcGUI.exe
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/UltiCalcGUI/UltiCalcGUI/obj/x86/Debug/UltiCalcGUI.exe
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/UltiCalcGUI/UltiCalcGUI/obj/x86/Debug/UltiCalcGUI.exe.mdb
